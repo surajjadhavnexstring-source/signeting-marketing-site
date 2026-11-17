@@ -57,6 +57,20 @@ Copy `meta/cycles/_template/` to `meta/cycles/YYYY-MM-DD-<page>/`. Lock each ste
 - Never ask for or store passwords, tokens, or keys in chat or in the repo.
 - Small commits with clear messages.
 
+## Threads and roles
+Work is split across separate Amp threads. A thread does not see other threads' chats; it works only from the files in this repo. Handoffs happen through files, and each thread adds a line to the History section of the cycle's `summary.md` when it finishes a step.
+
+| Thread | Owns | Does not touch |
+|---|---|---|
+| **Strategy & Design** | `meta/00-context.md`, `meta/strategy/*`, each cycle's `copy.md`, Paper designs, `meta/design-links.md`, exports in `design/` | `app/`, `components/`, `styles/tokens.css`, `sitemap.md`, `roadmap*.md` |
+| **Planning & Roadmap** | `meta/sitemap.md`, `meta/roadmap*.md`, each cycle's `brief.md` and `summary.md`, `meta/decisions.md`, stack proposal | copy, designs, code |
+| **Implementation** | `app/`, `components/`, `content/` (approved copy only, unchanged), `lib/`, `styles/tokens.css`, `screenshots/`, the PR | strategy, copy text, designs, plans |
+| **Reviewer** (a fresh thread per page, never the one that built it) | the cycle's `review.md` | everything else |
+
+- If a thread needs a change in a file it does not own, it writes the request in the cycle's `summary.md` under "Blocked on" and stops. It does not edit the file.
+- Order inside a cycle stays as in "Cycle order" above: brief (Planning), copy and design (Strategy & Design), build (Implementation), review (Reviewer).
+- Every thread starts by reading `AGENTS.md`, the cycle's `summary.md`, and the files it owns. Suraj approves every gate; no thread approves another thread's work.
+
 ## Git and approval
 - One branch per page, named for its cycle (e.g. `page/home`). Setup work uses `setup/<topic>`.
 - `main` holds approved work only. Nothing merges to `main` until Suraj approves the PR.
