@@ -7,4 +7,4 @@ Written from `meta/strategy/messaging.md`. Once approved, this text goes into `c
 ## Section 2 —
 
 ## Status
-- [ ] Approved by Dev
+- [ ] Approved by Suraj

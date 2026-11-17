@@ -1,5 +1,5 @@
 ## Page / cycle
-`meta/cycles/YYYY-MM-<page>/`
+`meta/cycles/YYYY-MM-DD-<page>/`
 
 ## Checklist (see `meta/review-checklist.md`)
 - [ ] Copy approved in `copy.md` and matches word for word

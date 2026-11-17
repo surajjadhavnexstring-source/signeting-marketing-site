@@ -12,4 +12,4 @@ _Copy the checklist here and mark each item ✅ / ❌ with notes._
 1.
 
 ## Verdict
-- [ ] Ready for Dev's approval
+- [ ] Ready for Suraj's approval

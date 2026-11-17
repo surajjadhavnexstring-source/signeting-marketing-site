@@ -2,7 +2,7 @@
 
 > Phase 1.
 
-## Primary: individuals and freelancers
+## Primary: individuals and freelancers (**old**, from the individual product; rework for companies)
 
 ### Global
 - Jobs to be done:

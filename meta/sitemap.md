@@ -1,6 +1,7 @@
 # Sitemap
 
-> Phase 2. Proposed pages; Dev confirms.
+> Phase 2. Proposed pages; Suraj confirms.
+> **Old:** these pages were proposed for the individual product (trial, Free / Pro / Team plans). Each is reworked for the company product, page by page, in its own cycle.
 
 | Page | Route | Goal | Primary CTA | Status |
 |---|---|---|---|---|
