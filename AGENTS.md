@@ -52,3 +52,9 @@ Copy `meta/cycles/_template/` to `meta/cycles/YYYY-MM-<page>/`. Lock each step b
 - No paid services, tracking scripts, or third-party accounts without Dev's approval.
 - Never ask for or store passwords, tokens, or keys in chat or in the repo.
 - Small commits with clear messages.
+
+## Git and approval
+- One branch per page, named for its cycle (e.g. `page/home`). Setup work uses `setup/<topic>`.
+- `main` holds approved work only. Nothing merges to `main` until Dev approves the PR.
+- The reviewer step (`review.md`) never replaces Dev's approval; it comes before it.
+- Commit only when Dev says so.
